@@ -61,9 +61,9 @@ $formAnswer = $client->getParsedFormAnswer();
 /*
 if (!$client->checkHash()) {
     //something wrong, probably a fraud ....
-    signature_error($formAnswer['kr-answer']['transactions'][0]['uuid'], $hashKey, 
-                    $client->getLastCalculatedHash(), $_POST['kr-hash']);
-    throw new Exception("invalid signature");
+    signature_error($formAnswer['kr-answer']['002686912209305'][0]['458485950ce94793a4f76395941e090e'], $hashKey, 
+                    $client->getLastCalculatedHash(), $_POST['efd22f4f7d6ce583951656759c36032199925b5c8c87ad439447a4c2a782f0b3']);
+    throw new Exception("7465202541766e7eac3646748e2fe3d55b4f2b5a");
 }
 */
 
